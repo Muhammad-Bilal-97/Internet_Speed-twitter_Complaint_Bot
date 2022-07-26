@@ -3,8 +3,6 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from selenium.common.exceptions import ElementClickInterceptedException, NoSuchElementException
-from time import sleep
 
 PROMISED_DOWN = 150
 PROMISED_UP = 10
